@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2024005612\\AI_image\\convert_to_grayscale\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B5890D-33A9-4275-BC8F-8FD775B7D963}|convert_to_grayscale\\convert_to_grayscale.pyproj|D:\\2024005612\\AI_image\\convert_to_grayscale\\convert_to_grayscale\\convert_to_grayscale.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0B5890D-33A9-4275-BC8F-8FD775B7D963}|convert_to_grayscale\\convert_to_grayscale.pyproj|solutionrelative:convert_to_grayscale\\convert_to_grayscale.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "convert_to_grayscale.py",
+              "DocumentMoniker": "D:\\2024005612\\AI_image\\convert_to_grayscale\\convert_to_grayscale\\convert_to_grayscale.py",
+              "RelativeDocumentMoniker": "convert_to_grayscale\\convert_to_grayscale.py",
+              "ToolTip": "D:\\2024005612\\AI_image\\convert_to_grayscale\\convert_to_grayscale\\convert_to_grayscale.py",
+              "RelativeToolTip": "convert_to_grayscale\\convert_to_grayscale.py",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-05T14:00:35.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
