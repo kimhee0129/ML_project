@@ -104,8 +104,6 @@ def crop_gray(filepath_old, filepath_new, filename):
         if crop_image.shape[0] == 128 and crop_image.shape[1] == 128:
             print("변형성공") #
 
-        crop_gray_image = cv2.cvtColor(crop_image, cv2.COLOR_BGR2GRAY)
-
         cv2.imwrite(f'{filepath_new}/{filename}{i+1}.jpg', crop_gray_image)
 
 for i in range(5):
