@@ -13,13 +13,10 @@ import random
 #4. 이미지 정렬해 저장
 
 ##1. 이미지 개수 맞추기##
-raw_path = 'C:/data_set/raw_images/'
+raw_path = 'E:\AI_data\ques\ordinary_test'
 
 def object_s(ob):
-    if ob == 'fish':
-        return ob + 'es'
-    else:
-        return ob + 's'
+    return ob
 
 #폴더 속 이미지 개수 세기
 def num(filepath):
@@ -32,10 +29,10 @@ objects_n_raw = [] #변형전, 삭제전 사진 개수
 objects_p_raw_new = [] #변형전, 삭제후 사진 경로(재정렬에 필요)
 for i in range(5):
     objects_s.append(object_s(objects[i]))
-    objects_p_raw_old.append(raw_path + objects_s[i])
+    objects_p_raw_old.append(raw_path + "\\" + objects_s[i])
     #ex)'raw_images/birds'폴더
     objects_n_raw.append(num(objects_p_raw_old[i]))
-    objects_p_raw_new.append(raw_path + objects[i])
+    objects_p_raw_new.append(raw_path + "\\" + objects[i])
     #ex)'raw_images/bird'폴더(임시로 정렬)
     
 min_n = min(objects_n_raw) #개수비교, 최소 구하기
@@ -69,12 +66,12 @@ print(objects_n_raw[0], objects_n_raw[1], objects_n_raw[2],
       objects_n_raw[3], objects_n_raw[4]) #
 
 ##2. 이미지 변환 후 정렬해 저장##
-training_path = 'C:/data_set/training_set/'
+training_path = 'E:\AI_data\ord_test_set'
 
 objects_p_train = [] #변환후 사진 경로
 
 for i in range(5):
-    objects_p_train.append(training_path + objects[i])
+    objects_p_train.append(training_path + "\\" + objects[i])
     #ex)'training_set/bird'
 
 def crop(filepath_old, filepath_new, filename):
